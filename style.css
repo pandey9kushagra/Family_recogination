@@ -1,0 +1,14 @@
+.heading{
+    font-size: 29px;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .objectname{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ body{
+
+    background: linear-gradient(143deg, rgb(14, 2, 148) 1%, rgb(192, 160, 31) 51%, rgb(150, 53, 85) 100%);
+ }

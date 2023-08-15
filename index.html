@@ -1,0 +1,62 @@
+ 
+<html>
+  <head>
+    <title>Family member recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+          <h1 class="btn btn-info heading">Family member recognition</h1>
+      <br><br>
+
+      <p style="font-size: 26px;font-family: 'Times New Roman', Times, serif;color:white ;">Model is trained to identify the following objects: </p>
+      <br><br>
+
+      <b class="objectname">
+        Father
+        <hr>
+        Mother
+        <hr>
+        Sister
+        <hr>
+        Myself
+        <hr>
+        
+      </b>
+      <br><br><br>
+
+
+      <label style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Webcam View - </label>
+      
+      <br><br>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button class="btn btn-info" style="font-size: 20px; font-family: 'Times New Roman', Times, serif;" onclick="picture()">Capture Image</button>
+      <br><br>
+      <button class="btn btn-info" style="font-size: 20px; font-family: 'Times New Roman', Times, serif;" onclick="check()">Identify Image</button>
+      <br><br>
+      <p style="font-size: 22px;font-family: 'Times New Roman', Times, serif;">Object :  <span id="object"></span></p>
+      <p style="font-size: 22px;font-family: 'Times New Roman', Times, serif;">Accuracy :  <span id="accuracy"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
